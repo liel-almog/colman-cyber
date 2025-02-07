@@ -1,0 +1,19 @@
+FROM python:3.12-bullseye
+
+# strongest user
+
+WORKDIR /app
+COPY python/dns_poisoning.py .
+COPY python/requirements.txt .
+
+# Copy the custom shell script into the container
+COPY stage5/gateway.sh /app/gateway.sh
+
+# Copy the nftables configuration file into the container
+COPY stage5/block_icmp.nft block_icmp.nft
+
+# Make the script executable
+RUN chmod +x /app/gateway.sh
+
+ENTRYPOINT ["sh", "-c", "/app/gateway.sh"]
+

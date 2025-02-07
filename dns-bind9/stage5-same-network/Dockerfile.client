@@ -1,0 +1,11 @@
+FROM debian:latest
+
+WORKDIR /app
+
+# Copy the custom shell script into the container
+COPY stage5/client.sh /app/client.sh
+
+# Make the script executable
+RUN chmod +x /app/client.sh
+
+CMD ["sh", "-c", "/app/client.sh"]

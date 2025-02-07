@@ -1,0 +1,45 @@
+services:
+  client:
+    image: ubuntu:latest
+    build:
+      context: ../
+      dockerfile: stage5-same-network/Dockerfile.client
+    cap_add:
+      - NET_ADMIN # Required for iptables or routing
+      - SYS_ADMIN
+      - NET_RAW
+    depends_on:
+      - gateway
+    networks:
+      mitm-network:
+        ipv4_address: 192.168.1.10
+
+  bind9:
+    container_name: dns-auth-srv-stage5-same-network
+    image: ubuntu/bind9:latest
+    environment:
+      - BIND9_USER=root
+      - TZ=Europe/Jerusalem
+    networks:
+      mitm-network:
+        ipv4_address: 192.168.1.30
+
+  gateway:
+    build:
+      context: ../
+      dockerfile: stage5-same-network/Dockerfile.gateway
+    networks:
+      mitm-network:
+        ipv4_address: 192.168.1.20
+    cap_add:
+      - NET_ADMIN # Required for iptables or routing
+      - SYS_ADMIN
+      - NET_RAW
+    privileged: true # Needed for network operations
+
+networks:
+  mitm-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.3.0/24

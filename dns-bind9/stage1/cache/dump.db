@@ -1,0 +1,971 @@
+;
+; Start view _default
+;
+;
+; Cache dump of view '_default' (cache _default)
+;
+; using a 0 second stale ttl
+$DATE 20250102202235
+; authanswer
+.			518029	IN NS	a.root-servers.net.
+			518029	IN NS	b.root-servers.net.
+			518029	IN NS	c.root-servers.net.
+			518029	IN NS	d.root-servers.net.
+			518029	IN NS	e.root-servers.net.
+			518029	IN NS	f.root-servers.net.
+			518029	IN NS	g.root-servers.net.
+			518029	IN NS	h.root-servers.net.
+			518029	IN NS	i.root-servers.net.
+			518029	IN NS	j.root-servers.net.
+			518029	IN NS	k.root-servers.net.
+			518029	IN NS	l.root-servers.net.
+			518029	IN NS	m.root-servers.net.
+; authanswer
+			518029	RRSIG	NS 8 0 518400 (
+					20250115170000 20250102160000 26470 .
+					Rve+2YOk6Kxzrqq3zrTS7rp9hzUh/Zz7gkmG
+					X9SkDdYfFfj46LD+r22hAsiHBpvFPrqnCOyk
+					M0zIqK4AkkyjPdYlxQ7T4SJNq60+wRiMGdkN
+					miSJqDOphn1XuSwl3g494Ync4weqJGc3LbfB
+					mrYsFA1V95znuX+UyMi7AJ2yZnl1iP1d2F3N
+					kg5npoyjoywfIYEi82vBIqgbVCBWJhjnql9q
+					F75BdmKi0rONSHoEHI/DROs+IJGEpSE1ngs0
+					usRWFu2MmIqgNWrNwRrsKAbX1OjqdSXg0v+k
+					T04i7cW7Of3rNWddUzcHp6Jf2SBSG7Xe5WTh
+					FcQu++umk55eTIS4Rw== )
+; glue
+com.			172429	NS	a.gtld-servers.net.
+			172429	NS	b.gtld-servers.net.
+			172429	NS	c.gtld-servers.net.
+			172429	NS	d.gtld-servers.net.
+			172429	NS	e.gtld-servers.net.
+			172429	NS	f.gtld-servers.net.
+			172429	NS	g.gtld-servers.net.
+			172429	NS	h.gtld-servers.net.
+			172429	NS	i.gtld-servers.net.
+			172429	NS	j.gtld-servers.net.
+			172429	NS	k.gtld-servers.net.
+			172429	NS	l.gtld-servers.net.
+			172429	NS	m.gtld-servers.net.
+; additional
+			86029	DS	19718 13 2 (
+					8ACBB0CD28F41250A80A491389424D341522
+					D946B0DA0C0291F2D3D771D7805A )
+; additional
+			86029	RRSIG	DS 8 1 86400 (
+					20250115170000 20250102160000 26470 .
+					AgRyIeLiUiRL9OiOntq6AsRR16CfxCa/GBoo
+					4JYHzmYFz0h4b18Md/w9KItuWRvgcrAp6Am4
+					9DscvW6THfHAN4TZPHy8fgUDuMCy8yubpijX
+					isAbnV7YUgjFwxF6EYXsEfaLFl6K5kcwz0eP
+					8SeCM/Dfo4tciuy86bnY5hqMZwi1E7TYJZGn
+					lyQnxoX16JRfLkwAAFyjNo5ayaCSIVtK7Vmb
+					AATnsjRn1i4ixYe7c/EsHwgLGGKIHKYvM34M
+					/3DcIIkdasGDBiH0cGOzYe0FZJcxl+L1Xy+6
+					Crqi4a8hY71tA97Wg+XQpuyJ1GxrPdQq1GXM
+					UlZ6sPd5GRWILzWtxw== )
+; glue
+abc.com.		172493	NS	ns-318.awsdns-39.com.
+			172493	NS	ns-736.awsdns-28.net.
+			172493	NS	ns-1368.awsdns-43.org.
+			172493	NS	ns-1869.awsdns-41.co.uk.
+; glue
+asus.com.		172649	NS	ns1.edgecastdns.net.
+			172649	NS	ns2.edgecastdns.net.
+			172649	NS	ns3.edgecastdns.net.
+			172649	NS	ns4.edgecastdns.net.
+; authanswer
+www.asus.com.		150	CNAME	fp32dd.adn.aa4ba.xicdn.net.
+; authauthority
+awsdns-24.com.		172494	NS	g-ns-25.awsdns-24.com.
+			172494	NS	g-ns-600.awsdns-24.com.
+			172494	NS	g-ns-1176.awsdns-24.com.
+			172494	NS	g-ns-1752.awsdns-24.com.
+; glue
+g-ns-1176.awsdns-24.com. 172494	A	205.251.196.152
+; glue
+			172494	AAAA	2600:9000:5304:9800::1
+; glue
+g-ns-1752.awsdns-24.com. 172494	A	205.251.198.216
+; glue
+			172494	AAAA	2600:9000:5306:d800::1
+; glue
+g-ns-25.awsdns-24.com.	172494	A	205.251.192.25
+; glue
+			172494	AAAA	2600:9000:5300:1900::1
+; glue
+g-ns-600.awsdns-24.com.	172494	A	205.251.194.88
+; glue
+			172494	AAAA	2600:9000:5302:5800::1
+; authanswer
+ns-194.awsdns-24.com.	172494	A	205.251.192.194
+; authanswer
+			172494	AAAA	2600:9000:5300:c200::1
+; authauthority
+awsdns-39.com.		172494	NS	g-ns-40.awsdns-39.com.
+			172494	NS	g-ns-615.awsdns-39.com.
+			172494	NS	g-ns-1191.awsdns-39.com.
+			172494	NS	g-ns-1767.awsdns-39.com.
+; glue
+g-ns-1191.awsdns-39.com. 172494	A	205.251.196.167
+; glue
+			172494	AAAA	2600:9000:5304:a700::1
+; glue
+g-ns-1767.awsdns-39.com. 172494	A	205.251.198.231
+; glue
+			172494	AAAA	2600:9000:5306:e700::1
+; glue
+g-ns-40.awsdns-39.com.	172494	A	205.251.192.40
+; glue
+			172494	AAAA	2600:9000:5300:2800::1
+; glue
+g-ns-615.awsdns-39.com.	172494	A	205.251.194.103
+; glue
+			172494	AAAA	2600:9000:5302:6700::1
+; glue
+ns-318.awsdns-39.com.	172493	A	205.251.193.62
+; authanswer
+			172494	AAAA	2600:9000:5301:3e00::1
+; authauthority
+awsdns-52.com.		172494	NS	g-ns-53.awsdns-52.com.
+			172494	NS	g-ns-628.awsdns-52.com.
+			172494	NS	g-ns-1204.awsdns-52.com.
+			172494	NS	g-ns-1780.awsdns-52.com.
+; glue
+g-ns-1204.awsdns-52.com. 172494	A	205.251.196.180
+; glue
+			172494	AAAA	2600:9000:5304:b400::1
+; glue
+g-ns-1780.awsdns-52.com. 172494	A	205.251.198.244
+; glue
+			172494	AAAA	2600:9000:5306:f400::1
+; glue
+g-ns-53.awsdns-52.com.	172494	A	205.251.192.53
+; glue
+			172494	AAAA	2600:9000:5300:3500::1
+; glue
+g-ns-628.awsdns-52.com.	172494	A	205.251.194.116
+; glue
+			172494	AAAA	2600:9000:5302:7400::1
+; authanswer
+ns-418.awsdns-52.com.	172494	A	205.251.193.162
+; authanswer
+			172494	AAAA	2600:9000:5301:a200::1
+; answer
+t.com.			529	\-ANY	;-$NXDOMAIN
+; com. SOA a.gtld-servers.net. nstld.verisign-grs.com. 1735848972 1800 900 604800 900
+; com. RRSIG SOA ...
+; 3RL2Q58205687C8I9KC9MV46DGHCNS45.com. RRSIG NSEC3 ...
+; 3RL2Q58205687C8I9KC9MV46DGHCNS45.com. NSEC3 1 1 0 - 3RL2SHVUMC300IUC2TDL4VML2HNF0O7I NS DS RRSIG
+; CK0POJMG874LJREF7EFN8430QVIT8BSM.com. RRSIG NSEC3 ...
+; CK0POJMG874LJREF7EFN8430QVIT8BSM.com. NSEC3 1 1 0 - CK0Q3UDG8CEKKAE7RUKPGCT1DVSSH8LL NS SOA RRSIG DNSKEY NSEC3PARAM
+; FOEMRAKANLQ165FABLTQ8OOFDF1CCKSR.com. RRSIG NSEC3 ...
+; FOEMRAKANLQ165FABLTQ8OOFDF1CCKSR.com. NSEC3 1 1 0 - FOEN2NUKQ977HJAP38GR6N2AJBU6GUVA NS DS RRSIG
+; answer
+www.t.com.		529	\-ANY	;-$NXDOMAIN
+; com. SOA a.gtld-servers.net. nstld.verisign-grs.com. 1735848957 1800 900 604800 900
+; com. RRSIG SOA ...
+; 3RL2Q58205687C8I9KC9MV46DGHCNS45.com. RRSIG NSEC3 ...
+; 3RL2Q58205687C8I9KC9MV46DGHCNS45.com. NSEC3 1 1 0 - 3RL2SHVUMC300IUC2TDL4VML2HNF0O7I NS DS RRSIG
+; CK0POJMG874LJREF7EFN8430QVIT8BSM.com. RRSIG NSEC3 ...
+; CK0POJMG874LJREF7EFN8430QVIT8BSM.com. NSEC3 1 1 0 - CK0Q3UDG8CEKKAE7RUKPGCT1DVSSH8LL NS SOA RRSIG DNSKEY NSEC3PARAM
+; FOEMRAKANLQ165FABLTQ8OOFDF1CCKSR.com. RRSIG NSEC3 ...
+; FOEMRAKANLQ165FABLTQ8OOFDF1CCKSR.com. NSEC3 1 1 0 - FOEN2NUKQ977HJAP38GR6N2AJBU6GUVA NS DS RRSIG
+; glue
+a0.org.afilias-nst.info. 172494	A	199.19.56.1
+; glue
+			172494	AAAA	2001:500:e::1
+; glue
+a2.org.afilias-nst.info. 172494	A	199.249.112.1
+; glue
+			172494	AAAA	2001:500:40::1
+; glue
+c0.org.afilias-nst.info. 172494	A	199.19.53.1
+; glue
+			172494	AAAA	2001:500:b::1
+; glue
+net.			172494	NS	a.gtld-servers.net.
+			172494	NS	b.gtld-servers.net.
+			172494	NS	c.gtld-servers.net.
+			172494	NS	d.gtld-servers.net.
+			172494	NS	e.gtld-servers.net.
+			172494	NS	f.gtld-servers.net.
+			172494	NS	g.gtld-servers.net.
+			172494	NS	h.gtld-servers.net.
+			172494	NS	i.gtld-servers.net.
+			172494	NS	j.gtld-servers.net.
+			172494	NS	k.gtld-servers.net.
+			172494	NS	l.gtld-servers.net.
+			172494	NS	m.gtld-servers.net.
+; additional
+			86094	DS	37331 13 2 (
+					2F0BEC2D6F79DFBD1D08FD21A3AF92D0E39A
+					4B9EF1E3F4111FFF282490DA453B )
+; additional
+			86094	RRSIG	DS 8 1 86400 (
+					20250115170000 20250102160000 26470 .
+					ClkXjtAKFOIK10NAfq5hbWxwBd5s9UJ4AjRN
+					RSmX24eXfxRbl6WOZf7IHxR1uJe2swdjLX5R
+					vspuxk7VY9DXOWiz8GHvn0OiAcqYO5BRG/CZ
+					ls/qpFtbA63N8c0D7uiVYoKXkALOYmW5FTSh
+					2I4Nlv5KLJBN9NNXCxSG20rofRFTcQvgcNnk
+					tHj6kVTL2+Al7n3BhAuLd/eYstMBlIiRlxly
+					wANfvbSrR0PPXfeP8Lk48f8ehgd+0cWHGgS+
+					kHth2SjkgU3T1Kv6S5dknAsmIHDrPNX5mEJ0
+					j2ZZD+N28R6CArO4FNUImmqtX4IBPwAI8skD
+					GjmNTOuzidGTLMncCw== )
+; authauthority
+awsdns-19.net.		172494	NS	g-ns-468.awsdns-19.net.
+			172494	NS	g-ns-789.awsdns-19.net.
+			172494	NS	g-ns-1363.awsdns-19.net.
+			172494	NS	g-ns-1939.awsdns-19.net.
+; glue
+g-ns-1363.awsdns-19.net. 172494	A	205.251.197.83
+; glue
+			172494	AAAA	2600:9000:5305:5300::1
+; glue
+g-ns-1939.awsdns-19.net. 172494	A	205.251.199.147
+; glue
+			172494	AAAA	2600:9000:5307:9300::1
+; glue
+g-ns-468.awsdns-19.net.	172494	A	205.251.193.212
+; glue
+			172494	AAAA	2600:9000:5301:d400::1
+; glue
+g-ns-789.awsdns-19.net.	172494	A	205.251.195.21
+; glue
+			172494	AAAA	2600:9000:5303:1500::1
+; glue
+ns-666.awsdns-19.net.	172494	A	205.251.194.154
+; authanswer
+			172494	AAAA	2600:9000:5302:9a00::1
+; authauthority
+awsdns-28.net.		172494	NS	g-ns-477.awsdns-28.net.
+			172494	NS	g-ns-798.awsdns-28.net.
+			172494	NS	g-ns-1372.awsdns-28.net.
+			172494	NS	g-ns-1948.awsdns-28.net.
+; glue
+g-ns-1372.awsdns-28.net. 172494	A	205.251.197.92
+; glue
+			172494	AAAA	2600:9000:5305:5c00::1
+; glue
+g-ns-1948.awsdns-28.net. 172494	A	205.251.199.156
+; glue
+			172494	AAAA	2600:9000:5307:9c00::1
+; glue
+g-ns-477.awsdns-28.net.	172494	A	205.251.193.221
+; glue
+			172494	AAAA	2600:9000:5301:dd00::1
+; glue
+g-ns-798.awsdns-28.net.	172494	A	205.251.195.30
+; glue
+			172494	AAAA	2600:9000:5303:1e00::1
+; authanswer
+ns-736.awsdns-28.net.	172494	A	205.251.194.224
+; authanswer
+			172494	AAAA	2600:9000:5302:e000::1
+; authauthority
+awsdns-31.net.		172494	NS	g-ns-480.awsdns-31.net.
+			172494	NS	g-ns-801.awsdns-31.net.
+			172494	NS	g-ns-1375.awsdns-31.net.
+			172494	NS	g-ns-1951.awsdns-31.net.
+; glue
+g-ns-1375.awsdns-31.net. 172494	A	205.251.197.95
+; glue
+			172494	AAAA	2600:9000:5305:5f00::1
+; glue
+g-ns-1951.awsdns-31.net. 172494	A	205.251.199.159
+; glue
+			172494	AAAA	2600:9000:5307:9f00::1
+; glue
+g-ns-480.awsdns-31.net.	172494	A	205.251.193.224
+; glue
+			172494	AAAA	2600:9000:5301:e000::1
+; glue
+g-ns-801.awsdns-31.net.	172494	A	205.251.195.33
+; glue
+			172494	AAAA	2600:9000:5303:2100::1
+; authanswer
+ns-760.awsdns-31.net.	172494	A	205.251.194.248
+; authanswer
+			172494	AAAA	2600:9000:5302:f800::1
+; glue
+cloudfront.net.		172494	NS	ns-418.awsdns-52.com.
+			172494	NS	ns-666.awsdns-19.net.
+			172494	NS	ns-1306.awsdns-35.org.
+			172494	NS	ns-1597.awsdns-07.co.uk.
+; authauthority
+d2iwv1xxkqpmiz.cloudfront.net. 1525 NS	ns-194.awsdns-24.com.
+			1525	NS	ns-760.awsdns-31.net.
+			1525	NS	ns-1231.awsdns-25.org.
+			1525	NS	ns-1630.awsdns-11.co.uk.
+; authauthority
+edgecastdns.net.	3449	NS	ns1.edgecastdns.net.
+			3449	NS	ns2.edgecastdns.net.
+			3449	NS	ns3.edgecastdns.net.
+			3449	NS	ns4.edgecastdns.net.
+; authanswer
+ns1.edgecastdns.net.	3449	A	192.16.16.5
+; authanswer
+			3449	AAAA	2606:2800:3::5
+; authanswer
+ns2.edgecastdns.net.	3449	A	192.16.16.6
+; authanswer
+			3449	AAAA	2606:2800:3::6
+; authanswer
+ns3.edgecastdns.net.	3449	A	198.7.29.5
+; authanswer
+			3449	AAAA	2606:2800:c::5
+; authanswer
+ns4.edgecastdns.net.	3449	A	198.7.29.6
+; authanswer
+			3449	AAAA	2606:2800:c::6
+; glue
+a.gtld-servers.net.	172429	A	192.5.6.30
+; glue
+			172429	AAAA	2001:503:a83e::2:30
+; glue
+b.gtld-servers.net.	172429	A	192.33.14.30
+; glue
+			172429	AAAA	2001:503:231d::2:30
+; glue
+c.gtld-servers.net.	172429	A	192.26.92.30
+; glue
+			172429	AAAA	2001:503:83eb::30
+; glue
+d.gtld-servers.net.	172429	A	192.31.80.30
+; glue
+			172429	AAAA	2001:500:856e::30
+; glue
+e.gtld-servers.net.	172429	A	192.12.94.30
+; glue
+			172429	AAAA	2001:502:1ca1::30
+; glue
+f.gtld-servers.net.	172429	A	192.35.51.30
+; glue
+			172429	AAAA	2001:503:d414::30
+; glue
+g.gtld-servers.net.	172429	A	192.42.93.30
+; glue
+			172429	AAAA	2001:503:eea3::30
+; glue
+h.gtld-servers.net.	172429	A	192.54.112.30
+; glue
+			172429	AAAA	2001:502:8cc::30
+; glue
+i.gtld-servers.net.	172429	A	192.43.172.30
+; glue
+			172429	AAAA	2001:503:39c1::30
+; glue
+j.gtld-servers.net.	172429	A	192.48.79.30
+; glue
+			172429	AAAA	2001:502:7094::30
+; glue
+k.gtld-servers.net.	172429	A	192.52.178.30
+; glue
+			172429	AAAA	2001:503:d2d::30
+; glue
+l.gtld-servers.net.	172429	A	192.41.162.30
+; glue
+			172429	AAAA	2001:500:d937::30
+; glue
+m.gtld-servers.net.	172429	A	192.55.83.30
+; glue
+			172429	AAAA	2001:501:b1f9::30
+; glue
+a.root-servers.net.	518029	A	198.41.0.4
+; glue
+			518029	AAAA	2001:503:ba3e::2:30
+; glue
+b.root-servers.net.	518029	A	170.247.170.2
+; glue
+			518029	AAAA	2801:1b8:10::b
+; glue
+c.root-servers.net.	518029	A	192.33.4.12
+; glue
+			518029	AAAA	2001:500:2::c
+; glue
+d.root-servers.net.	518029	A	199.7.91.13
+; glue
+			518029	AAAA	2001:500:2d::d
+; glue
+e.root-servers.net.	518029	A	192.203.230.10
+; glue
+			518029	AAAA	2001:500:a8::e
+; glue
+f.root-servers.net.	518029	A	192.5.5.241
+; glue
+			518029	AAAA	2001:500:2f::f
+; glue
+g.root-servers.net.	518029	A	192.112.36.4
+; glue
+			518029	AAAA	2001:500:12::d0d
+; glue
+h.root-servers.net.	518029	A	198.97.190.53
+; glue
+			518029	AAAA	2001:500:1::53
+; glue
+i.root-servers.net.	518029	A	192.36.148.17
+; glue
+			518029	AAAA	2001:7fe::53
+; glue
+j.root-servers.net.	518029	A	192.58.128.30
+; glue
+			518029	AAAA	2001:503:c27::2:30
+; glue
+k.root-servers.net.	518029	A	193.0.14.129
+; glue
+			518029	AAAA	2001:7fd::1
+; glue
+l.root-servers.net.	518029	A	199.7.83.42
+; glue
+			518029	AAAA	2001:500:9f::42
+; glue
+m.root-servers.net.	518029	A	202.12.27.33
+; glue
+			518029	AAAA	2001:dc3::35
+; glue
+xicdn.net.		172649	NS	ns1.xicdn.net.
+			172649	NS	ns2.xicdn.net.
+			172649	NS	ns3.xicdn.net.
+			172649	NS	ns4.xicdn.net.
+; answer
+aa4ba.xicdn.net.	450	\-NS	;-$NXRRSET
+; aa4ba.xicdn.net. SOA ns1.xicdn.net. noc.xicdn.net. 1699048891 3600 600 604800 600
+; authanswer
+adn.aa4ba.xicdn.net.	3450	CNAME	cs520155518.adn.phicdn.net.
+; authanswer
+fp32dd.adn.aa4ba.xicdn.net. 3450 CNAME	fp32dd.adn.xicdn.net.
+; answer
+adn.xicdn.net.		450	\-NS	;-$NXRRSET
+; adn.xicdn.net. SOA ns1.xicdn.net. noc.edgecast.com. 1730238683 3600 600 604800 600
+; authanswer
+fp32dd.adn.xicdn.net.	3450	A	152.199.16.91
+; glue
+ns1.xicdn.net.		172649	A	72.21.80.5
+; glue
+			172649	AAAA	2606:2800:1::5
+; glue
+ns2.xicdn.net.		172649	A	72.21.80.6
+; glue
+			172649	AAAA	2606:2800:1::6
+; glue
+ns3.xicdn.net.		172649	A	192.229.254.5
+; glue
+			172649	AAAA	2606:2800:e::5
+; glue
+ns4.xicdn.net.		172649	A	192.229.254.6
+; glue
+			172649	AAAA	2606:2800:e::6
+; glue
+org.			172494	NS	a0.org.afilias-nst.info.
+			172494	NS	a2.org.afilias-nst.info.
+			172494	NS	b0.org.afilias-nst.org.
+			172494	NS	b2.org.afilias-nst.org.
+			172494	NS	c0.org.afilias-nst.info.
+			172494	NS	d0.org.afilias-nst.org.
+; additional
+			86094	DS	26974 8 2 (
+					4FEDE294C53F438A158C41D39489CD78A86B
+					EB0D8A0AEAFF14745C0D16E1DE32 )
+; additional
+			86094	RRSIG	DS 8 1 86400 (
+					20250115170000 20250102160000 26470 .
+					Yf7GBhHePNMbcWokFsi4qOkeOK5T2IvIFlSU
+					VJ3Ni7wzOH1hguwG/UqfH+BI/v468uUxd88e
+					lNiiQebat6g+t7/KhmKTaG120478OaLs0dan
+					6+X9IsrGvhz6w7Venpmgr1IpLtsLiwKdF+Yx
+					jkJGntHdpbwJyCJezDFZvkk6qONYo0NLmpTd
+					JJR8kLf66KUuJJDywCqoKYgiSlHw0BXpLbk4
+					pL+b/LF0h4ocvd0WI4FlRs6gFAF1B7G+e1nW
+					S2s23pTvj8ljescVotYKG60XB8rd+cYg0r4e
+					u0ZQ6ClwE2y6yGwippMat1D0+Y8ahg/FqKdj
+					k4ffIQnloIPH0a62Ug== )
+; glue
+b0.org.afilias-nst.org.	172494	A	199.19.54.1
+; glue
+			172494	AAAA	2001:500:c::1
+; glue
+b2.org.afilias-nst.org.	172494	A	199.249.120.1
+; glue
+			172494	AAAA	2001:500:48::1
+; glue
+d0.org.afilias-nst.org.	172494	A	199.19.57.1
+; glue
+			172494	AAAA	2001:500:f::1
+; authauthority
+awsdns-25.org.		3294	NS	g-ns-153.awsdns-25.org.
+			3294	NS	g-ns-731.awsdns-25.org.
+			3294	NS	g-ns-1052.awsdns-25.org.
+			3294	NS	g-ns-1625.awsdns-25.org.
+; glue
+g-ns-1052.awsdns-25.org. 3294	A	205.251.196.28
+; glue
+			3294	AAAA	2600:9000:5304:1c00::1
+; glue
+g-ns-153.awsdns-25.org.	3294	A	205.251.192.153
+; glue
+			3294	AAAA	2600:9000:5300:9900::1
+; glue
+g-ns-1625.awsdns-25.org. 3294	A	205.251.198.89
+; glue
+			3294	AAAA	2600:9000:5306:5900::1
+; glue
+g-ns-731.awsdns-25.org.	3294	A	205.251.194.219
+; glue
+			3294	AAAA	2600:9000:5302:db00::1
+; authanswer
+ns-1231.awsdns-25.org.	172494	A	205.251.196.207
+; authanswer
+			172494	AAAA	2600:9000:5304:cf00::1
+; authauthority
+awsdns-35.org.		3294	NS	g-ns-163.awsdns-35.org.
+			3294	NS	g-ns-741.awsdns-35.org.
+			3294	NS	g-ns-1062.awsdns-35.org.
+			3294	NS	g-ns-1635.awsdns-35.org.
+; glue
+g-ns-1062.awsdns-35.org. 3294	A	205.251.196.38
+; glue
+			3294	AAAA	2600:9000:5304:2600::1
+; glue
+g-ns-163.awsdns-35.org.	3294	A	205.251.192.163
+; glue
+			3294	AAAA	2600:9000:5300:a300::1
+; glue
+g-ns-1635.awsdns-35.org. 3294	A	205.251.198.99
+; glue
+			3294	AAAA	2600:9000:5306:6300::1
+; glue
+g-ns-741.awsdns-35.org.	3294	A	205.251.194.229
+; glue
+			3294	AAAA	2600:9000:5302:e500::1
+; authanswer
+ns-1306.awsdns-35.org.	172494	A	205.251.197.26
+; authanswer
+			172494	AAAA	2600:9000:5305:1a00::1
+; authauthority
+awsdns-43.org.		3294	NS	g-ns-171.awsdns-43.org.
+			3294	NS	g-ns-749.awsdns-43.org.
+			3294	NS	g-ns-1070.awsdns-43.org.
+			3294	NS	g-ns-1643.awsdns-43.org.
+; glue
+g-ns-1070.awsdns-43.org. 3294	A	205.251.196.46
+; glue
+			3294	AAAA	2600:9000:5304:2e00::1
+; glue
+g-ns-1643.awsdns-43.org. 3294	A	205.251.198.107
+; glue
+			3294	AAAA	2600:9000:5306:6b00::1
+; glue
+g-ns-171.awsdns-43.org.	3294	A	205.251.192.171
+; glue
+			3294	AAAA	2600:9000:5300:ab00::1
+; glue
+g-ns-749.awsdns-43.org.	3294	A	205.251.194.237
+; glue
+			3294	AAAA	2600:9000:5302:ed00::1
+; authanswer
+ns-1368.awsdns-43.org.	172494	A	205.251.197.88
+; authanswer
+			172494	AAAA	2600:9000:5305:5800::1
+; glue
+uk.			172494	NS	nsa.nic.uk.
+			172494	NS	nsb.nic.uk.
+			172494	NS	nsc.nic.uk.
+			172494	NS	nsd.nic.uk.
+			172494	NS	dns1.nic.uk.
+			172494	NS	dns2.nic.uk.
+			172494	NS	dns3.nic.uk.
+			172494	NS	dns4.nic.uk.
+; additional
+			86094	DS	43876 8 2 (
+					A107ED2AC1BD14D924173BC7E827A1153582
+					072394F9272BA37E2353BC659603 )
+; additional
+			86094	RRSIG	DS 8 1 86400 (
+					20250115170000 20250102160000 26470 .
+					aPrJ15bNDR0J1cvSmXg9nBhfg+Zsl7vlA/l/
+					TvLAHwJjnm+pyhFbGNEYcvwl3ICpuTKcTAJO
+					XHuUoDtt7Efwp9GYOHVziFGmX1oE+9sOhT4/
+					/v/AnYaQS6V0FixJzWQYdw/mERTBI+nezXNY
+					wHFBmthJhKQkDrNgJdNwx2CT0fHZpoPs9ifi
+					pbQandvode3BBUOe9sXAFPchlyyKsjxEaOrV
+					SJHRNy0YFp6V2zgj27QEgEs2yzjVSMOc3Sgy
+					wN/TscAIEd6PbnrtH93h0Um8uxGMnmmkcyk+
+					/ISRr/yitJSubILHVJJkMNVJkMV/23xLooCK
+					6SmXW+CevkG4btn1AA== )
+; authauthority
+awsdns-07.co.uk.	172494	NS	g-ns-327.awsdns-07.co.uk.
+			172494	NS	g-ns-903.awsdns-07.co.uk.
+			172494	NS	g-ns-1482.awsdns-07.co.uk.
+			172494	NS	g-ns-1803.awsdns-07.co.uk.
+; glue
+g-ns-1482.awsdns-07.co.uk. 172494 A	205.251.197.202
+; glue
+			172494	AAAA	2600:9000:5305:ca00::1
+; glue
+g-ns-1803.awsdns-07.co.uk. 172494 A	205.251.199.11
+; glue
+			172494	AAAA	2600:9000:5307:b00::1
+; glue
+g-ns-327.awsdns-07.co.uk. 172494 A	205.251.193.71
+; glue
+			172494	AAAA	2600:9000:5301:4700::1
+; glue
+g-ns-903.awsdns-07.co.uk. 172494 A	205.251.195.135
+; glue
+			172494	AAAA	2600:9000:5303:8700::1
+; authanswer
+ns-1597.awsdns-07.co.uk. 172494	A	205.251.198.61
+; authanswer
+			172494	AAAA	2600:9000:5306:3d00::1
+; authauthority
+awsdns-11.co.uk.	172494	NS	g-ns-331.awsdns-11.co.uk.
+			172494	NS	g-ns-907.awsdns-11.co.uk.
+			172494	NS	g-ns-1486.awsdns-11.co.uk.
+			172494	NS	g-ns-1807.awsdns-11.co.uk.
+; glue
+g-ns-1486.awsdns-11.co.uk. 172494 A	205.251.197.206
+; glue
+			172494	AAAA	2600:9000:5305:ce00::1
+; glue
+g-ns-1807.awsdns-11.co.uk. 172494 A	205.251.199.15
+; glue
+			172494	AAAA	2600:9000:5307:f00::1
+; glue
+g-ns-331.awsdns-11.co.uk. 172494 A	205.251.193.75
+; glue
+			172494	AAAA	2600:9000:5301:4b00::1
+; glue
+g-ns-907.awsdns-11.co.uk. 172494 A	205.251.195.139
+; glue
+			172494	AAAA	2600:9000:5303:8b00::1
+; authanswer
+ns-1630.awsdns-11.co.uk. 172494	A	205.251.198.94
+; authanswer
+			172494	AAAA	2600:9000:5306:5e00::1
+; authauthority
+awsdns-41.co.uk.	172494	NS	g-ns-361.awsdns-41.co.uk.
+			172494	NS	g-ns-937.awsdns-41.co.uk.
+			172494	NS	g-ns-1516.awsdns-41.co.uk.
+			172494	NS	g-ns-1837.awsdns-41.co.uk.
+; glue
+g-ns-1516.awsdns-41.co.uk. 172494 A	205.251.197.236
+; glue
+			172494	AAAA	2600:9000:5305:ec00::1
+; glue
+g-ns-1837.awsdns-41.co.uk. 172494 A	205.251.199.45
+; glue
+			172494	AAAA	2600:9000:5307:2d00::1
+; glue
+g-ns-361.awsdns-41.co.uk. 172494 A	205.251.193.105
+; glue
+			172494	AAAA	2600:9000:5301:6900::1
+; glue
+g-ns-937.awsdns-41.co.uk. 172494 A	205.251.195.169
+; glue
+			172494	AAAA	2600:9000:5303:a900::1
+; authanswer
+ns-1869.awsdns-41.co.uk. 172494	A	205.251.199.77
+; authanswer
+			172494	AAAA	2600:9000:5307:4d00::1
+; glue
+dns1.nic.uk.		172494	A	213.248.216.1
+; glue
+			172494	AAAA	2a01:618:400::1
+; glue
+dns2.nic.uk.		172494	A	103.49.80.1
+; glue
+			172494	AAAA	2401:fd80:400::1
+; glue
+dns3.nic.uk.		172494	A	213.248.220.1
+; glue
+			172494	AAAA	2a01:618:404::1
+; glue
+dns4.nic.uk.		172494	A	43.230.48.1
+; glue
+			172494	AAAA	2401:fd80:404::1
+; glue
+nsa.nic.uk.		172494	A	156.154.100.3
+; glue
+			172494	AAAA	2001:502:ad09::3
+; glue
+nsb.nic.uk.		172494	A	156.154.101.3
+; glue
+			172494	AAAA	2001:502:2eda::3
+; glue
+nsc.nic.uk.		172494	A	156.154.102.3
+; glue
+			172494	AAAA	2610:a1:1009::3
+; glue
+nsd.nic.uk.		172494	A	156.154.103.3
+; glue
+			172494	AAAA	2610:a1:1010::3
+;
+; Address database dump
+;
+; [edns success/timeout]
+; [plain success/timeout]
+;
+; ns-760.awsdns-31.net [v4 TTL 1494] [v6 TTL 1494] [v4 success] [v6 success]
+;	205.251.194.248 [srtt 18614] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	2600:9000:5302:f800::1 [srtt 4] [flags 00000000] [edns 0/0] [plain 0/0]
+; ns-1630.awsdns-11.co.uk [v4 TTL 1494] [v6 TTL 1494] [v4 success] [v6 success]
+;	205.251.198.94 [srtt 7] [flags 00000000] [edns 0/0] [plain 0/0]
+;	2600:9000:5306:5e00::1 [srtt 27] [flags 00000000] [edns 0/0] [plain 0/0]
+; ns-1597.awsdns-07.co.uk [v4 TTL 1494] [v6 TTL 1494] [v4 success] [v6 success]
+;	205.251.198.61 [srtt 11] [flags 00000000] [edns 0/0] [plain 0/0]
+;	2600:9000:5306:3d00::1 [srtt 7] [flags 00000000] [edns 0/0] [plain 0/0]
+; ns-418.awsdns-52.com [v4 TTL 1494] [v6 TTL 1494] [v4 success] [v6 success]
+;	205.251.193.162 [srtt 26] [flags 00000000] [edns 0/0] [plain 0/0]
+;	2600:9000:5301:a200::1 [srtt 9] [flags 00000000] [edns 0/0] [plain 0/0]
+; ns2.edgecastdns.net [v4 TTL 1649] [v6 TTL 1649] [v4 success] [v6 success]
+;	192.16.16.6 [srtt 30] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1649]
+;	2606:2800:3::6 [srtt 82448] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1649]
+; ns-1368.awsdns-43.org [v4 TTL 1494] [v6 TTL 1494] [v4 success] [v6 success]
+;	205.251.197.88 [srtt 28] [flags 00000000] [edns 0/0] [plain 0/0]
+;	2600:9000:5305:5800::1 [srtt 25] [flags 00000000] [edns 0/0] [plain 0/0]
+; ns-666.awsdns-19.net [v6 TTL 1494] [v4 unexpected] [v6 success]
+;	2600:9000:5302:9a00::1 [srtt 18] [flags 00000000] [edns 0/0] [plain 0/0]
+; ns-1231.awsdns-25.org [v4 TTL 1494] [v6 TTL 1494] [v4 success] [v6 success]
+;	205.251.196.207 [srtt 28] [flags 00000000] [edns 0/0] [plain 0/0]
+;	2600:9000:5304:cf00::1 [srtt 28] [flags 00000000] [edns 0/0] [plain 0/0]
+; ns-1306.awsdns-35.org [v4 TTL 1494] [v6 TTL 1494] [v4 success] [v6 success]
+;	205.251.197.26 [srtt 2] [flags 00000000] [edns 0/0] [plain 0/0]
+;	2600:9000:5305:1a00::1 [srtt 19] [flags 00000000] [edns 0/0] [plain 0/0]
+; ns-1869.awsdns-41.co.uk [v4 TTL 1494] [v6 TTL 1494] [v4 success] [v6 success]
+;	205.251.199.77 [srtt 13] [flags 00000000] [edns 0/0] [plain 0/0]
+;	2600:9000:5307:4d00::1 [srtt 21] [flags 00000000] [edns 0/0] [plain 0/0]
+; ns-318.awsdns-39.com [v6 TTL 1494] [v4 unexpected] [v6 success]
+;	2600:9000:5301:3e00::1 [srtt 19] [flags 00000000] [edns 0/0] [plain 0/0]
+; ns-194.awsdns-24.com [v4 TTL 1494] [v6 TTL 1494] [v4 success] [v6 success]
+;	205.251.192.194 [srtt 8] [flags 00000000] [edns 0/0] [plain 0/0]
+;	2600:9000:5300:c200::1 [srtt 26] [flags 00000000] [edns 0/0] [plain 0/0]
+; ns-736.awsdns-28.net [v4 TTL 1494] [v6 TTL 1494] [v4 success] [v6 success]
+;	205.251.194.224 [srtt 31] [flags 00000000] [edns 0/0] [plain 0/0]
+;	2600:9000:5302:e000::1 [srtt 26] [flags 00000000] [edns 0/0] [plain 0/0]
+;
+; Unassociated entries
+;
+;	205.251.195.169 [srtt 15014] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	156.154.102.3 [srtt 19183] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 873] [cookie=20aa1b6257d470b0010000006776f4596689a8c3c7ca84f8] [ttl 1494]
+;	205.251.197.236 [srtt 3592] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	2600:9000:5306:6b00::1 [srtt 116172] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5304:1c00::1 [srtt 127780] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1494]
+;	2600:9000:5303:a900::1 [srtt 70761] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	156.154.103.3 [srtt 20700] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 873] [cookie=33691538d9f67ee8010000006776f459d7e52248ec7087eb] [ttl 1494]
+;	2600:9000:5304:a700::1 [srtt 236000] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5302:e500::1 [srtt 103307] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5307:2d00::1 [srtt 223432] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	205.251.193.75 [srtt 135030] [flags 00000004] [edns 2/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	205.251.198.89 [srtt 20107] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	192.31.80.30 [srtt 19422] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 546] [ttl 1429]
+;	2600:9000:5301:4700::1 [srtt 199680] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1494]
+;	205.251.195.30 [srtt 14385] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	2606:2800:c::6 [srtt 202104] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1649]
+;	199.7.91.13 [srtt 7731] [flags 00000004] [edns 2/0] [plain 0/0] [udpsize 1163] [ttl 1429]
+;	2600:9000:5302:7400::1 [srtt 148619] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	205.251.195.33 [srtt 19] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2001:7fe::53 [srtt 157282] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	192.26.92.30 [srtt 24] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1429]
+;	103.49.80.1 [srtt 18] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2001:500:a8::e [srtt 150635] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	2600:9000:5303:1500::1 [srtt 82460] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	199.249.112.1 [srtt 43650] [flags 00000004] [edns 2/0] [plain 0/0] [udpsize 824] [ttl 1494]
+;	199.19.56.1 [srtt 16] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	198.7.29.6 [srtt 57313] [flags 00000004] [edns 8/0] [plain 0/0] [udpsize 512] [ttl 1649]
+;	2606:2800:e::6 [srtt 189958] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1649]
+;	2600:9000:5302:5800::1 [srtt 82458] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	205.251.196.46 [srtt 3293] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	2600:9000:5306:5900::1 [srtt 122180] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	205.251.199.11 [srtt 23] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.199.156 [srtt 19] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.197.83 [srtt 28] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	193.0.14.129 [srtt 23] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1429]
+;	205.251.194.219 [srtt 14392] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	2600:9000:5302:db00::1 [srtt 149357] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5303:2100::1 [srtt 210597] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	205.251.197.206 [srtt 14] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.194.103 [srtt 5] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2a01:618:400::1 [srtt 157781] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	205.251.193.62 [srtt 132907] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	198.41.0.4 [srtt 19] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1429]
+;	2a01:618:404::1 [srtt 215747] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	205.251.195.139 [srtt 6] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2600:9000:5300:9900::1 [srtt 113118] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	72.21.80.6 [srtt 33630] [flags 00000004] [edns 2/0] [plain 0/0] [udpsize 512] [ttl 1650]
+;	192.33.14.30 [srtt 4880] [flags 00000004] [edns 2/0] [plain 0/0] [udpsize 676] [ttl 1429]
+;	205.251.198.231 [srtt 6] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2001:503:ba3e::2:30 [srtt 104994] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	205.251.198.216 [srtt 26] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.192.153 [srtt 22] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.194.154 [srtt 24014] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	2600:9000:5305:5300::1 [srtt 54530] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5304:2e00::1 [srtt 85822] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	205.251.198.107 [srtt 16] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	192.54.112.30 [srtt 20067] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1429]
+;	170.247.170.2 [srtt 25] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1429]
+;	2001:500:856e::30 [srtt 183469] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	2001:503:83eb::30 [srtt 248339] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	2600:9000:5307:f00::1 [srtt 259180] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1494]
+;	205.251.199.45 [srtt 7] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.192.163 [srtt 79807] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	198.7.29.5 [srtt 23700] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1649]
+;	205.251.192.40 [srtt 82207] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	192.5.6.30 [srtt 18459] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 741] [ttl 1429]
+;	192.12.94.30 [srtt 20407] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 643] [ttl 1429]
+;	192.16.16.5 [srtt 28] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1649]
+;	199.19.54.1 [srtt 21] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2600:9000:5300:ab00::1 [srtt 86919] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	205.251.197.95 [srtt 3293] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	192.48.79.30 [srtt 61885] [flags 00000004] [edns 4/0] [plain 0/0] [udpsize 676] [ttl 1429]
+;	2610:a1:1010::3 [srtt 256607] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	192.229.254.6 [srtt 23414] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1650]
+;	205.251.194.229 [srtt 20673] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	205.251.199.159 [srtt 21007] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	2801:1b8:10::b [srtt 198162] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	2001:dc3::35 [srtt 77677] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	2600:9000:5301:dd00::1 [srtt 107978] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5305:ca00::1 [srtt 108048] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2606:2800:1::5 [srtt 192772] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1649]
+;	192.36.148.17 [srtt 18900] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 1191] [cookie=964c0b8e7f451942010000006776f459155e281c6aba452d] [ttl 1429]
+;	199.249.120.1 [srtt 20360] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 821] [ttl 1494]
+;	205.251.198.99 [srtt 12] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.193.221 [srtt 81900] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	2600:9000:5305:ce00::1 [srtt 166623] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2001:500:f::1 [srtt 54213] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	72.21.80.5 [srtt 16814] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1650]
+;	205.251.196.38 [srtt 13] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2001:503:eea3::30 [srtt 144613] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1429]
+;	2001:500:48::1 [srtt 217723] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2001:7fd::1 [srtt 92698] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	205.251.196.167 [srtt 11] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	192.52.178.30 [srtt 412716] [flags 00000004] [edns 8/0] [plain 0/0] [udpsize 649] [ttl 1429]
+;	2001:500:40::1 [srtt 193770] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	199.19.57.1 [srtt 10] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.197.92 [srtt 23] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	213.248.220.1 [srtt 22] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.193.105 [srtt 13] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.192.25 [srtt 81007] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	2600:9000:5302:ed00::1 [srtt 122899] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5307:9f00::1 [srtt 103567] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5302:6700::1 [srtt 33370] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	205.251.192.171 [srtt 29] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2001:500:2::c [srtt 119905] [flags 00000000] [edns 0/5] [plain 0/0] [ttl 1429]
+;	2600:9000:5300:2800::1 [srtt 40760] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5306:d800::1 [srtt 134347] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	192.112.36.4 [srtt 8] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1429]
+;	205.251.193.212 [srtt 26] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.198.244 [srtt 19782] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	2001:500:12::d0d [srtt 84215] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	192.55.83.30 [srtt 19] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1429]
+;	2600:9000:5300:a300::1 [srtt 192832] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2001:503:c27::2:30 [srtt 232644] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	2001:500:c::1 [srtt 73595] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1494]
+;	2001:502:1ca1::30 [srtt 186593] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1429]
+;	2600:9000:5300:1900::1 [srtt 68615] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	205.251.193.224 [srtt 8] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.196.180 [srtt 30] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2600:9000:5304:9800::1 [srtt 130100] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1494]
+;	205.251.194.116 [srtt 23] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	192.203.230.10 [srtt 26] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1429]
+;	2600:9000:5303:8b00::1 [srtt 139800] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1494]
+;	2001:500:b::1 [srtt 134676] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2001:502:7094::30 [srtt 54381] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1429]
+;	205.251.196.152 [srtt 4] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2001:502:2eda::3 [srtt 145006] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1494]
+;	205.251.196.28 [srtt 1] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2001:503:231d::2:30 [srtt 225656] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1429]
+;	43.230.48.1 [srtt 8] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2610:a1:1009::3 [srtt 93876] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1494]
+;	198.97.190.53 [srtt 12] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1429]
+;	199.7.83.42 [srtt 17] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1429]
+;	192.229.254.5 [srtt 16182] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1650]
+;	2001:503:d414::30 [srtt 71844] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1429]
+;	2600:9000:5304:2600::1 [srtt 255609] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	205.251.197.202 [srtt 3300] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	192.35.51.30 [srtt 19683] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 745] [ttl 1429]
+;	2600:9000:5301:6900::1 [srtt 60520] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1494]
+;	205.251.194.237 [srtt 14407] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	2606:2800:c::5 [srtt 221456] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1649]
+;	2001:503:39c1::30 [srtt 124292] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1429]
+;	2600:9000:5300:3500::1 [srtt 223612] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5307:9c00::1 [srtt 178241] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2001:500:2f::f [srtt 73476] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	192.43.172.30 [srtt 52286] [flags 00000004] [edns 3/0] [plain 0/0] [udpsize 676] [ttl 1429]
+;	2600:9000:5305:ec00::1 [srtt 132919] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5306:f400::1 [srtt 200866] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2001:500:e::1 [srtt 123857] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1494]
+;	2606:2800:3::5 [srtt 107220] [flags 00000000] [edns 0/4] [plain 0/0] [ttl 1649]
+;	2001:503:d2d::30 [srtt 56437] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	2600:9000:5306:6300::1 [srtt 211136] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5307:b00::1 [srtt 225279] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	205.251.193.71 [srtt 1] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2001:501:b1f9::30 [srtt 115809] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1429]
+;	205.251.192.53 [srtt 91507] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	205.251.199.147 [srtt 15] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	192.42.93.30 [srtt 19162] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 553] [ttl 1429]
+;	192.41.162.30 [srtt 132978] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 675] [ttl 1429]
+;	2001:503:a83e::2:30 [srtt 242762] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1429]
+;	2600:9000:5301:d400::1 [srtt 205610] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5307:9300::1 [srtt 83850] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5303:1e00::1 [srtt 203920] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5306:e700::1 [srtt 31880] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	192.33.4.12 [srtt 17] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1429]
+;	2001:500:1::53 [srtt 218592] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	205.251.195.21 [srtt 14114] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	2600:9000:5301:4b00::1 [srtt 163470] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2401:fd80:400::1 [srtt 195916] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	156.154.101.3 [srtt 26] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.199.15 [srtt 0] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	205.251.195.135 [srtt 14407] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	2600:9000:5305:5c00::1 [srtt 250739] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	156.154.100.3 [srtt 25] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1494]
+;	2600:9000:5303:8700::1 [srtt 82448] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2606:2800:1::6 [srtt 101251] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1649]
+;	2401:fd80:404::1 [srtt 198621] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2001:502:ad09::3 [srtt 199130] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1494]
+;	2001:500:2d::d [srtt 88666] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	2600:9000:5305:5f00::1 [srtt 222404] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1494]
+;	2600:9000:5301:e000::1 [srtt 128540] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1494]
+;	2600:9000:5304:b400::1 [srtt 83140] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1494]
+;	2606:2800:e::5 [srtt 162681] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1649]
+;	2001:502:8cc::30 [srtt 252198] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1429]
+;	2001:500:9f::42 [srtt 157940] [flags 00000000] [edns 0/2] [plain 0/0] [ttl 1429]
+;	192.5.5.241 [srtt 13] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1429]
+;	192.58.128.30 [srtt 25] [flags 00000000] [edns 0/0] [plain 0/0] [ttl 1429]
+;	2001:500:d937::30 [srtt 135008] [flags 00000000] [edns 0/1] [plain 0/0] [ttl 1429]
+;	202.12.27.33 [srtt 394641] [flags 00000004] [edns 6/0] [plain 0/0] [udpsize 1183] [ttl 1429]
+;	205.251.194.88 [srtt 14671] [flags 00000004] [edns 1/0] [plain 0/0] [udpsize 512] [ttl 1494]
+;	199.19.53.1 [srtt 114843] [flags 00000004] [edns 3/0] [plain 0/0] [udpsize 821] [ttl 1494]
+;	213.248.216.1 [srtt 61150] [flags 00000004] [edns 4/0] [plain 0/0] [udpsize 845] [ttl 1494]
+;
+; Bad cache
+;
+;
+; SERVFAIL cache
+;
+;
+; Start view _bind
+;
+;
+; Cache dump of view '_bind' (cache _bind)
+;
+; using a 0 second stale ttl
+$DATE 20250102202235
+;
+; Address database dump
+;
+; [edns success/timeout]
+; [plain success/timeout]
+;
+;
+; Unassociated entries
+;
+;
+; Bad cache
+;
+;
+; SERVFAIL cache
+;
+; Dump complete

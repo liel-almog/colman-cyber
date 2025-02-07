@@ -1,0 +1,63 @@
+services:
+  client:
+    image: ubuntu:latest
+    build:
+      context: .
+      dockerfile: client/Dockerfile
+    cap_add:
+      - NET_ADMIN # Required for iptables or routing
+      - SYS_ADMIN
+      - NET_RAW
+    depends_on:
+      - gateway
+      - bind9
+    networks:
+      client-network:
+        ipv4_address: 192.168.1.10
+
+  bind9:
+    container_name: dns-auth-srv-stage5
+    depends_on:
+      - gateway
+    build:
+      context: .
+      dockerfile: bind9/Dockerfile
+    volumes:
+      - ./bind9/config:/etc/bind
+    environment:
+      - BIND9_USER=root
+      - TZ=Europe/Jerusalem
+    networks:
+      dns-network:
+        ipv4_address: 192.168.2.30
+    cap_add:
+      - NET_ADMIN # Required for iptables or routing
+      - SYS_ADMIN
+      - NET_RAW
+
+  gateway:
+    build:
+      context: .
+      dockerfile: gateway/Dockerfile
+    networks:
+      client-network:
+        ipv4_address: 192.168.1.20
+      dns-network:
+        ipv4_address: 192.168.2.20
+    cap_add:
+      - NET_ADMIN # Required for iptables or routing
+      - SYS_ADMIN
+      - NET_RAW
+    privileged: true # Needed for network operations
+
+networks:
+  client-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.1.0/24
+  dns-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.2.0/24
